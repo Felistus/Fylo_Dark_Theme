@@ -338,6 +338,9 @@ footer{
 	.fas{
 		display: none;
 	}
+	.icon{
+		width: auto;
+	}
 	#nav{
 		display: flex;
 		flex-wrap: wrap;
@@ -414,6 +417,9 @@ footer{
 	}
 	.fas{
 		display: none;
+	}
+	.icon{
+		width: auto;
 	}
 	#video-header{
 		text-align: center;
