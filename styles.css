@@ -21,6 +21,7 @@ body{
 	right: 0;
 	left: 0;
 	padding: 15px 20px;
+	z-index: 500;
 }
 #logo-container{
 	/*border: 1px solid black;*/
