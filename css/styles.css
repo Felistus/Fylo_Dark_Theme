@@ -290,6 +290,150 @@ hr{
 	color: hsl(228, 45%, 44%); 
 }
 
+
+
+@media screen and (min-width: 540px) and (max-width: 1024px){
+	body header{
+		padding: 5rem 1rem 6rem 1rem;
+	}
+
+	.illustration{
+		width: 100%;
+		padding: 0 1rem;
+	}
+	.illustration_photo, .illustration_photo #illustration{
+		width: 100%;
+	}
+
+	.description_container{
+		background-image: url("../images/bg-curvy-mobile.svg");
+	}
+	.description{
+		width: 100%;
+		padding: 0.5rem;
+	}
+	.description .first_para{
+		font-size: 30px;
+		width: 100%;
+		line-height: 2.5rem;
+	}
+	.description .second_para{
+		width: 100%;
+	}
+	
+	.access_files{
+		margin-top: -18rem;
+	}
+	.flex_container{
+		flex-direction: column;	
+		width: 100%;	
+	}
+	.flex_container:not(:last-child){
+		margin-bottom: 3rem;
+	}
+	.flex_item{
+		width: 100%;
+		padding: 0 0.5rem;
+		margin-bottom: 4rem;
+	}
+	.flex_item .title_text{
+		width: 100%;
+	}
+	.lengthy_text{
+		width: 100% !important;
+		padding: 0 0.5rem !important;
+	}
+
+	.productive{
+		padding: 0 1rem 10rem 1rem;
+	}
+	.productive_container{
+		flex-direction: column;
+		width: 100%;
+	}
+	.productive_image{
+		width: 100%;
+		margin: 0 auto 3rem auto;
+	}
+	#stay_productive{
+		width: 100%;
+	}
+	.productive_text{
+		width: 100%;
+		text-align: center;
+	}
+	.productive_header{
+		width: 100%;
+	}
+	.productive_body_one, .productive_body_two{
+		width: 100%;
+	}
+	hr{
+		margin: 0 auto;
+	}
+	
+	.testimonial{
+		width: 100%;
+		padding: 0 1rem 5rem 1rem;
+	}
+	.quote_box{
+		flex-direction: column;
+	}
+	#left_quote{
+		margin-left: 0rem;
+	}
+	.box{
+		width: 100%;
+		margin-bottom: 3rem;
+	}
+
+	.subscribe{
+		padding: 0 1rem;
+	}
+	.early_access{
+		width: 100%;
+		padding: 2rem 1.5rem;
+		margin-bottom: -10rem;
+	}
+	.early_header{
+		width: 100%;
+	}
+	.early_body{
+		width: 100%;
+	}
+	.early_input{
+		width: 100%;
+	}
+	#sub_email{
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+
+	.footer_container{
+		padding: 15rem 1.5rem 5rem 1.5rem;
+	}
+	.footer_flex{
+		flex-direction: column;
+		width: 100%;
+	}
+	.location{
+		width: 100%;
+	}
+	.footer_items{
+		margin-bottom: 3rem;
+	}
+	.about_info, .term_info, .social_icons{
+		width: 100%;
+		text-align: center;
+	}
+	.footer_items:not(:last-child){
+		margin-right: 0;
+	}
+
+	.social_icon{
+		margin-right: 1rem;
+	}
+}
 @media screen and (min-height: 800px){
 	.description_container{
 		margin-bottom: -20rem;
