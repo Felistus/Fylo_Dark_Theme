@@ -446,13 +446,14 @@ hr{
 	body header{
 		padding-left: 1rem;
 		padding-right: 1rem;
-		justify-content: start;
+		justify-content: space-between;
 	}
 	nav.navigation ul{
+		width: 100%;
 		justify-content: center;
 	}
-	nav.navigation ul li{
-		margin-right: 0.7rem;
+	nav.navigation ul li:not(:last-child){
+		margin-right: 0.4rem;
 	}
 
 	.illustration{
